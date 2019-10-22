@@ -1,0 +1,5 @@
+---
+- name: configure.yml
+  copy:
+    content: "<p>Hello World</p>"
+    dest: /var/www/html/index.html

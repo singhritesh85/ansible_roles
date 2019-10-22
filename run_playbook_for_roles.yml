@@ -1,0 +1,5 @@
+---
+- name: run_playbook_for_roles.yml
+  hosts: all 
+  roles:
+  - apache2 
